@@ -1,0 +1,217 @@
+/* ====================== BODY ====================== */
+:root{
+	background-color: #ACC766;
+}
+
+body{
+	font: 100% /*16px*/ sans-serif, arial, helvetica;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 10px; 
+	background-color: #F7F5E9;
+}
+
+/* ====================== HEADER ====================== */
+header{
+	background-color: ;
+	padding: 0.52083333%; /* 5px/960px */
+}
+/*
+#logo{
+	background: url(../images/logo.png) no-repeat 30% 0;
+	background-size: contain;
+}
+
+#main_logo{
+	min-width: 25%;
+	max-width: 100%;
+	height: auto;
+}
+*/
+/* NAV */
+nav{
+	overflow: hidden;
+	margin-bottom: 1%; /* 9.6px/960px */
+	padding: 9.6px; /* 9.6px/960px */
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0 5%; /* 48px / 960px */
+	margin-top: 0;
+}
+
+nav li{
+	
+	margin: .3% .3% .3% 0; /* 2.88px / 960px */
+	padding: 0%;
+	float: left;
+}
+
+nav li a{
+	background-color: #71706C;
+	padding: 10px; 
+	text-decoration: none;
+	color: #ACC766;
+}
+
+nav li a:hover{
+	color: #71706C;
+	background-color: #ACC766;
+}
+
+/* HEADER IMAGE */
+div#main_image img{
+	max-width: 92%; /* 883.2px / 960px */
+	height: auto;
+	margin-left: 4%; /* 38.4px / 960px */
+	margin-right: 4%; /* 38.4px / 960px */
+}
+
+/* ====================== ABOUT ====================== */
+/* ABOUT TEXT */
+#about_text{
+	margin: 0 20%; /* 192px / 960px */
+}
+
+h2{
+	text-align: center;
+}
+
+/* Process Steps */
+div#steps{
+	margin: 0 auto;
+}
+
+#step1{
+	width: 31%; /* 297.6px / 960px */
+	float: left;
+	padding: 1%; /* 9.6px / 960px */
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#step1 img{
+	width: 60%; /* 576px / 960px */
+}
+
+#step2{
+	width: 31%; /* 297.6px / 960px */
+	float: left;
+	padding: 1%; /* 9.6px / 960px */
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#step2 img{
+	width: 60%; /* 576px / 960px */
+}
+
+#step3{
+	width: 31%; /* 297.6px / 960px */
+	float: left;
+	padding: 1%; /* 9.6px / 960px */
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#step3 img{
+	width: 60%; /* 576px / 960px */
+}
+
+/* ====================== FOOTER ====================== */
+footer{
+	padding: 0.10416666%; /* 1px / 960px */
+	background-color: #71706C;
+	clear: both;
+	text-align: center;
+}
+
+/* ====================== MEDIA QUERIES ====================== */
+
+@media screen and (min-width: 830px) and (max-width: 959px){
+	#about_text{
+	margin: 0 15%; /* 143.85px / 959px */
+	}
+	
+	#step1{
+		margin-left: 18.22916666%;
+	}
+	
+	#step3{
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 572px) and (max-width: 829px){
+	#about_text{
+	margin: 0 15%; /* 124.35px / 829px */
+	}
+	
+	#step1{
+		margin-left: 18.22916666%;
+	}
+	
+	#step3{
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 392px) and (max-width: 571px){
+	#about_text{
+	margin: 0 15%; /* 192px / 960px */
+	}
+	
+	#step1{
+		margin-left: 18.22916666%;
+	}
+	
+	#step3{
+		float: none;
+		margin: 0 auto;
+	}
+	
+	#step1, #step2, #step3{
+		width: 35%; /* 199.85px / 571px */
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 391px){
+	h1{
+		text-align: center;
+	}
+	
+	nav{
+		margin: 0;
+	}
+	
+	nav ul{
+		width: 98%; /* 383.18px / 391px */
+		
+	}
+	
+	nav li{
+		float: none;
+		margin-bottom: 21px;
+	}
+	
+	nav li a{
+		padding: 10px 10%; /* 39.1px / 391px */
+	}
+	
+	#about_text{
+	margin: 0 15%; /* 192px / 960px */
+	}
+	
+	#step1, #step2, #step3{
+		float: none;
+		width: 50%;
+		margin: 0 auto;
+	}
+}
