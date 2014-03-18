@@ -1,0 +1,30 @@
+h1{
+	color: green;
+	text-decoration: overline;
+}
+
+h3{
+	text-align: center;
+}
+
+dd, a{
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
+a:hover, a:focus {
+    color: #blue; }
+
+.new{
+	background: green;
+}
+
+footer{
+	text-align: center;
+	background: #999;
+	padding: 1%;
+}
+
+hr{
+	margin-top: 56%;
+}
