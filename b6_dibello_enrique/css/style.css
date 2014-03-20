@@ -1,0 +1,253 @@
+/* GENRAL
+  ================================================== */ 
+body{
+	width: 900px; /* 900/1440 */
+	font-family: helvetica, arial, sans-serif;
+	font-size: 100%;
+	margin: 0 auto;
+	padding: 0 7px;
+}
+
+/* HEADER
+  ================================================== */ 
+header a{
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+	color: #023E73;
+}
+
+span{
+	color: #FF374B;
+}
+
+/* NAV
+  ================================================== */ 
+nav{
+	position: relative;
+	right: 40px; /* 40/900 */
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	float: left;
+	margin-right: 1px;
+	padding: 5px 8px; /* 5/900 */
+	background: #0477BF;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav li:hover{
+	color: white;
+	background: #048ABF;
+}
+
+.current{
+	background: #048ABF;
+}
+
+/* MAIN IMAGE
+  ================================================== */ 
+ #main-img{
+ 	width: 100%;
+ }
+
+/* FORM
+  ================================================== */
+#form-background{
+	opacity: .5;
+	height: 90px; 
+	position: absolute;
+	top: 108px;
+	width: 460px;
+	z-index: 1;
+}
+
+form{
+	position: absolute;
+	top: 120px;
+	width: 600px;
+	z-index: 2;
+}	
+
+label{
+	text-align: right;
+	float: left;
+	width: 100px;
+	margin-right: 5px;
+	color: #fff;
+}
+
+input, select{
+	width: 120px;
+	cursor: pointer;
+}
+
+#submit{
+	margin: 0 105px;
+}
+
+#submit input{
+	margin-left: 62px;
+	background: #048ABF;
+	border-radius: 4px;
+	border: solid 1px #fff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.form-left{
+	text-align: right;
+	float: left;
+	width: 250px;
+	margin-right: 5px;
+}
+
+.form-right{
+	width: 55px;
+}
+
+/* THREE STACK CONTENT
+  ================================================== */ 
+#three-stack{
+	float: left;
+}
+
+.float-left{
+	width: 290px;
+	float: left;
+	margin-right: 10px;
+}
+
+.three-stack-image{
+	width: 290px;
+}
+
+/* FOOTER
+  ================================================== */ 
+footer{
+	clear: both;
+	background: #023E73;
+}
+
+footer p{
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+}
+
+/* MEDIA QUERIES
+  ================================================== */ 
+@media screen and (min-width: 613px) and (max-width: 915px){
+	body{
+		width: 98%;
+	}
+}
+
+@media screen and (min-width: 470px) and (max-width: 612px){
+	body{
+		width: 97%;
+	}
+}
+
+@media screen and (max-width: 469px){
+	body{
+		width: 97%;
+	}
+
+	#main-img{
+		display: none;
+	}
+
+	#form-background{
+		display: none;
+	}
+
+	form{
+		position: relative;
+		top: 0px;
+		width: 0px;
+		z-index: 2;
+		margin-bottom: 10px;
+		margin-left: 12px;
+	}	
+
+	label{
+		text-align: right;
+		float: none;
+		width: 0px;
+		margin-right: 0px;
+		color: black;
+	}
+
+	input, select{
+		width: 200px;
+		height: 20px;
+		cursor: pointer;
+	}
+
+	#submit{
+		margin: 0 auto;
+	}
+
+	#submit input{
+		margin-left: 0px;
+		background: #048ABF;
+		border-radius: 4px;
+		border: solid 1px #fff;
+		color: #fff;
+		cursor: pointer;
+		height: 30px;
+		font-size: 1em;
+	}
+
+	.form-left{
+		text-align: right;
+		float: none;
+		width: 0px;
+		margin-right: 0px;
+	}
+
+	.form-right{
+		width: 0px;
+	}
+
+	nav{
+	position: relative;
+	right: 40px; /* 40/900 */
+	}
+
+	nav ul{
+		list-style-type: none;
+	}
+
+	nav ul li{
+		float: none;
+		width: 200px;
+	}
+
+	nav a{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
